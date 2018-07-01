@@ -6,5 +6,8 @@ https://www.youtube.com/watch?v=3xho7CQRrNs&index=2&list=PLCJcQMZOafIAfS9sz0L9VS
 Useful link->https://en.wikibooks.org/wiki/X86_Assembly/Protected_Mode
 
 Control Register (CR0 to CR4)
+
+EFLAG manual 80386->http://processorarch.blogspot.com/2013/01/v-behaviorurldefaultvmlo.html
 CF
 PF (2:22)
+
