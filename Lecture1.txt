@@ -1,1 +1,7 @@
 https://www.youtube.com/watch?v=3xho7CQRrNs&index=2&list=PLCJcQMZOafIAfS9sz0L9VSqKN0Cmr0E-1
+
+//AT&T
+mov %eax, %ebx //move reigster
+               //from eax to ebx
+mov $4,ebx//move constant 4 to register ebx
+mov value,%ebx// (5:41) put the content of value into register ebx (5:47)
