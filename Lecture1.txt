@@ -5,3 +5,29 @@ mov %eax, %ebx //move reigster
                //from eax to ebx
 mov $4,ebx//move constant 4 to register ebx
 mov value,%ebx// (5:41) put the content of value into register ebx (5:47)
+mov %value,%ebx // (5:57) put the address point by value into ebx register (5:57)
+
+->(6:30)
+movb//move byte
+movw//move word
+movl//move long
+eg, movw %ax,%bx (7:24)
+
+->AT&T(7:59)
+ljump $section,%offset
+lcall $section,%offset
+
+lret $stack_adust
+寻址方式
+Section:disp(base,index,sclae). To calculate the actual address
+Section:]base+index*scale+disp]
+
+->movl -4(%ebp),%eax
+->movl array(,%eax,4),%ax->move [eax*4_array] to eax
+
+->movl array(%ebx,%eax,4),%ax->move [ebx+eax*4_array] to eax
+
+->movl $4,%fs:(%eax)->move constant 4 to fs:eax
+
+
+
