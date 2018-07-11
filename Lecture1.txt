@@ -14,7 +14,7 @@ movl//move long
 eg, movw %ax,%bx (7:24)
 
 ->AT&T(7:59)
-ljump $section,%offset
+ljmp $section,%offset //We jump to the Section:Offset (偏移(offset)的地址处)(9:14) 
 lcall $section,%offset
 
 lret $stack_adust
@@ -23,7 +23,7 @@ Section:disp(base,index,sclae). To calculate the actual address
 Section:]base+index*scale+disp]
 
 ->movl -4(%ebp),%eax
-->movl array(,%eax,4),%ax->move [eax*4_array] to eax
+->movl array(%eax,4),%ax->move [eax*4_array] to eax
 
 ->movl array(%ebx,%eax,4),%ax->move [ebx+eax*4_array] to eax
 
