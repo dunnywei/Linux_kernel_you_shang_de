@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=3xho7CQRrNs&index=2&list=PLCJcQMZOafIAfS9sz0L9VSqKN0Cmr0E-1
 
+->good link->https://blog.csdn.net/dc_726/article/details/49006389
 //AT&T
 mov %eax, %ebx //move reigster
                //from eax to ebx
