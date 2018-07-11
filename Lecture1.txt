@@ -15,9 +15,10 @@ movl//move long
 eg, movw %ax,%bx (7:24)
 
 ->AT&T(7:59)
-ljmp $section,%offset //We jump to the Section:Offset (偏移(offset)的地址处)(9:14) 
+ljmp $section,%offset //We jump(跳转) to the Section:Offset (偏移(offset)的地址处)(9:14) 
 lcall $section,%offset
 
+返回指令(9:47)
 lret $stack_adust
 寻址方式
 Section:disp(base,index,sclae). To calculate the actual address
